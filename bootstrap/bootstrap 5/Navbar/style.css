@@ -1,0 +1,8 @@
+.my-bg {
+    background-color: rgb(202, 202, 202);
+}
+
+.my-form input:focus {
+    box-shadow: none;
+    border: 1px solid black;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .square {
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+        }
+        
+        body {
+            background-color: #EFFF9A;
+        }
+        
+        p {
+            margin: 50px 330px;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="square bg-primary position-fixed top-0"></div>
+            <div class="square bg-secondary position-fixed bottom-0"></div>
+            <div class="square bg-danger position-fixed end-0 bottom-0"></div>
+            <div class="square bg-info position-fixed end-0 top-0"></div>
+            <div class="square bg-dark"></div>
+            <div class="square bg-warning"></div>
+            <div class="square bg-success"></div>
+            <div class="square bg-light"></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>Bordas</h2>
+    <div class="container">
+        <div class="row">
+            <div class="square bg-dark border"></div>
+            <div class="square bg-dark border border-2"></div>
+            <div class="square bg-dark border border-3"></div>
+            <div class="square bg-dark border border-4"></div>
+            <div class="square bg-dark border border-5"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="square bg-dark border"></div>
+            <div class="square bg-dark border-5 border-bottom"></div>
+            <div class="square bg-dark border-5 border-top"></div>
+            <div class="square bg-dark border-5 border-end"></div>
+            <div class="square bg-dark border-5 border-start"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="square bg-dark rounded"></div>
+            <div class="square bg-dark rounded-bottom"></div>
+            <div class="square bg-dark rounded-top"></div>
+            <div class="square bg-dark rounded-end"></div>
+            <div class="square bg-dark rounded-start"></div>
+            <div class="square bg-dark rounded-circle"></div>
+            <div class="col bg-dark rounded-pill"></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h3>Textos</h3>
+    <div class="container">
+        <p class="text-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti necessitatibus, nobis deserunt nostrum laborum expedita asperiores, a sed accusantium nulla similique qui, labore fugiat veniam quae facere eaque? Aspernatur, consectetur.</p>
+        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti necessitatibus, nobis deserunt nostrum laborum expedita asperiores, a sed accusantium nulla similique qui, labore fugiat veniam quae facere eaque? Aspernatur, consectetur.</p>
+        <p class="text-end">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti necessitatibus, nobis deserunt nostrum laborum expedita asperiores, a sed accusantium nulla similique qui, labore fugiat veniam quae facere eaque? Aspernatur, consectetur.</p>
+    </div>
+
+    <div class="container">
+        <p class="fs-1">Lorem ipsum dolor sit amet</p>
+        <p class="fs-2">Lorem ipsum dolor sit amet</p>
+        <p class="fs-3">Lorem ipsum dolor sit amet</p>
+        <p class="fs-4">Lorem ipsum dolor sit amet</p>
+        <p class="fs-5">Lorem ipsum dolor sit amet</p>
+        <p class="fs-6">Lorem ipsum dolor sit amet</p>
+    </div>
+    <h3>Pesos de fontes</h3>
+    <div class="container">
+        <p class="fw-bold">Lorem ipsum dolor sit amet</p>
+        <p class="fw-bolder">Lorem ipsum dolor sit amet</p>
+        <p class="fw-normal">Lorem ipsum dolor sit amet</p>
+        <p class="fw-light">Lorem ipsum dolor sit amet</p>
+        <p class="fw-lighter">Lorem ipsum dolor sit amet</p>
+        <p class="fst-italic">Lorem ipsum dolor sit amet</p>
+    </div>
+    <h2>Cores de texto</h2>
+    <div class="container">
+        <p class="text-start text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti necessitatibus, nobis deserunt nostrum laborum expedita asperiores, a sed accusantium nulla similique qui, labore fugiat veniam quae facere eaque? Aspernatur, consectetur.</p>
+        <p class="text-center text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti necessitatibus, nobis deserunt nostrum laborum expedita asperiores, a sed accusantium nulla similique qui, labore fugiat veniam quae facere eaque? Aspernatur, consectetur.</p>
+        <p class="text-end text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti necessitatibus, nobis deserunt nostrum laborum expedita asperiores, a sed accusantium nulla similique qui, labore fugiat veniam quae facere eaque? Aspernatur, consectetur.</p>
+        <p class="text-end text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti necessitatibus, nobis deserunt nostrum laborum expedita asperiores, a sed accusantium nulla similique qui, labore fugiat veniam quae facere eaque? Aspernatur, consectetur.</p>
+    </div>
+
+    <hr>
+
+    <h2>Espaçamento</h2>
+    <div class="container">
+        <button class="btn btn-primary mx-5 mx-md-4 mx-lg-1">Botão</button>
+        <button class="btn btn-primary my-5">Botão</button>
+        <button class="btn btn-primary mt-5">Botão</button>
+        <button class="btn btn-primary mb-5">Botão</button>
+        <button class="btn btn-primary ms-5">Botão</button>
+        <button class="btn btn-primary me-5">Botão</button>
+    </div>
+    <div class="container">
+        <button class="btn btn-primary px-5">Botão</button>
+        <button class="btn btn-primary py-5">Botão</button>
+        <button class="btn btn-primary pt-5">Botão</button>
+        <button class="btn btn-primary pb-5">Botão</button>
+        <button class="btn btn-primary ps-5">Botão</button>
+        <button class="btn btn-primary pe-5">Botão</button>
+    </div>
+
+    <hr>
+
+    <h2>Display</h2>
+    <div class="container">
+        <div class="bg-primary d-inline">Bloco 01</div>
+        <div class="bg-primary d-inline mt-2">Bloco 02</div>
+    </div>
+    <h2>Flex</h2>
+    <div class="container d-flex justify-content-around">
+        <span class="bg-primary d-block mt-2">Bloco 01</span>
+        <span class="bg-danger d-md-block mt-2">Bloco 02</span>
+        <span class="bg-primary d-block mt-2">Bloco 01</span>
+        <span class="bg-danger d-md-block mt-2">Bloco 02</span>
+        <span class="bg-primary d-block mt-2">Bloco 01</span>
+        <span class="bg-danger d-none d-md-block mt-2">Bloco 02</span>
+    </div>
+
+    <hr>
+
+    <h2>Sizing</h2>
+    <div class="bg-primary p-3 w-25">25</div>
+    <div class="bg-primary p-3 w-50">50</div>
+    <div class="bg-primary p-3 w-75">75</div>
+    <div class="bg-primary p-3 w-100">100</div>
+
+    <hr>
+
+    <div style="height: 200px" class="d-flex">
+        <div class="bg-primary p-3 h-25">25</div>
+        <div class="bg-primary p-3 h-50">50</div>
+        <div class="bg-primary p-3 h-75">75</div>
+        <div class="bg-primary p-3 h-100">100</div>
+    </div>
+
+    <div style="margin: 200px;"></div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+O q é bootstrap
+implementando bootstrap
+tamanho das fontes
+typography
+estilos de texto
+trabalhando com imagens
+imagens thumbnails
+colors
+videos
+componentes
+buttons
+alert
+icons
+cards
+formularios
+tipos de formularios
+form floating e input group
+header, main, footer
+
+Background-color
+border
+alinhamento de texto
+cor de texto
+margin e padding
+display
+display flex
+position
+sizing
+cleaarfix
+colored links
+vertical rule
+
+Grid - 12 colunas
+Row e Col
+Layout
+Tipos de container
+Breakpoint - tamanho de tela
+tabela de breakpoints
+breakpoints com cols
+breakpoints em container
+row dentro de row
+row-col - limite de colunas detro de row
+row-col com breakpoint
+alinhamento vertical das colunas
+alinhamento horizontal das colunas
+reordenação de colunas
+offset nas colunas - pular casas
+Gutters - espaçamento de padding entre cols q estão dentro das row
+tipos de gutters
+Gap - espaçamento de margin entre cols q estão dentro das row

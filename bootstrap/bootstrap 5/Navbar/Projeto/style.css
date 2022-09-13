@@ -1,0 +1,11 @@
+.my-form input:focus {
+    box-shadow: none;
+}
+
+.my-form input {
+    border: none;
+}
+
+.my-hover:hover {
+    border-bottom: solid 1px rgb(124, 124, 124);
+}
